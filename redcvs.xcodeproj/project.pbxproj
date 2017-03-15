@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A3735181E78B3D100379946 /* libR3DSDKllvm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3735161E78B3D100379946 /* libR3DSDKllvm.a */; };
+		8A6819581E79D6660093C0CE /* REDR3D.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6819571E79D6660093C0CE /* REDR3D.dylib */; };
+		8AB381581E7604CB00582C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB381571E7604CB00582C27 /* AppDelegate.m */; };
+		8AB3815B1E7604CB00582C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3815A1E7604CB00582C27 /* main.m */; };
+		8AB3815E1E7604CB00582C27 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3815D1E7604CB00582C27 /* ViewController.mm */; };
+		8AB381601E7604CB00582C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB3815F1E7604CB00582C27 /* Assets.xcassets */; };
+		8AB381631E7604CB00582C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB381611E7604CB00582C27 /* Main.storyboard */; };
+		8AB3816E1E7604CB00582C27 /* redcvsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3816D1E7604CB00582C27 /* redcvsTests.m */; };
+		8AB381791E7604CB00582C27 /* redcvsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB381781E7604CB00582C27 /* redcvsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AB3816A1E7604CB00582C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB3814B1E7604CA00582C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB381521E7604CA00582C27;
+			remoteInfo = redcvs;
+		};
+		8AB381751E7604CB00582C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB3814B1E7604CA00582C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB381521E7604CA00582C27;
+			remoteInfo = redcvs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A3735131E78B3B900379946 /* R3DSDKv6_2_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = R3DSDKv6_2_2; path = ../../../../../Development/R3DSDKv6_2_2; sourceTree = "<group>"; };
+		8A3735151E78B3D100379946 /* libR3DSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libR3DSDK.a; path = ../../../../../Development/R3DSDKv6_2_2/Lib/mac32_64/libR3DSDK.a; sourceTree = "<group>"; };
+		8A3735161E78B3D100379946 /* libR3DSDKllvm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libR3DSDKllvm.a; path = ../../../../../Development/R3DSDKv6_2_2/Lib/mac32_64/libR3DSDKllvm.a; sourceTree = "<group>"; };
+		8A6819571E79D6660093C0CE /* REDR3D.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = REDR3D.dylib; path = ../../R3DSDKv6_2_2/Redistributable/mac/REDR3D.dylib; sourceTree = "<group>"; };
+		8AB381531E7604CA00582C27 /* redcvs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redcvs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB381561E7604CB00582C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AB381571E7604CB00582C27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AB3815A1E7604CB00582C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AB3815C1E7604CB00582C27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AB3815D1E7604CB00582C27 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		8AB3815F1E7604CB00582C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AB381621E7604CB00582C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AB381641E7604CB00582C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB381691E7604CB00582C27 /* redcvsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redcvsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB3816D1E7604CB00582C27 /* redcvsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redcvsTests.m; sourceTree = "<group>"; };
+		8AB3816F1E7604CB00582C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB381741E7604CB00582C27 /* redcvsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redcvsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB381781E7604CB00582C27 /* redcvsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redcvsUITests.m; sourceTree = "<group>"; };
+		8AB3817A1E7604CB00582C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AB381501E7604CA00582C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6819581E79D6660093C0CE /* REDR3D.dylib in Frameworks */,
+				8A3735181E78B3D100379946 /* libR3DSDKllvm.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB381661E7604CB00582C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB381711E7604CB00582C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A3735121E78B3B900379946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A6819571E79D6660093C0CE /* REDR3D.dylib */,
+				8A3735151E78B3D100379946 /* libR3DSDK.a */,
+				8A3735161E78B3D100379946 /* libR3DSDKllvm.a */,
+				8A3735131E78B3B900379946 /* R3DSDKv6_2_2 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AB3814A1E7604CA00582C27 = {
+			isa = PBXGroup;
+			children = (
+				8AB381551E7604CA00582C27 /* redcvs */,
+				8AB3816C1E7604CB00582C27 /* redcvsTests */,
+				8AB381771E7604CB00582C27 /* redcvsUITests */,
+				8AB381541E7604CA00582C27 /* Products */,
+				8A3735121E78B3B900379946 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB381541E7604CA00582C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB381531E7604CA00582C27 /* redcvs.app */,
+				8AB381691E7604CB00582C27 /* redcvsTests.xctest */,
+				8AB381741E7604CB00582C27 /* redcvsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB381551E7604CA00582C27 /* redcvs */ = {
+			isa = PBXGroup;
+			children = (
+				8AB381561E7604CB00582C27 /* AppDelegate.h */,
+				8AB381571E7604CB00582C27 /* AppDelegate.m */,
+				8AB3815C1E7604CB00582C27 /* ViewController.h */,
+				8AB3815D1E7604CB00582C27 /* ViewController.mm */,
+				8AB3815F1E7604CB00582C27 /* Assets.xcassets */,
+				8AB381611E7604CB00582C27 /* Main.storyboard */,
+				8AB381641E7604CB00582C27 /* Info.plist */,
+				8AB381591E7604CB00582C27 /* Supporting Files */,
+			);
+			path = redcvs;
+			sourceTree = "<group>";
+		};
+		8AB381591E7604CB00582C27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB3815A1E7604CB00582C27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AB3816C1E7604CB00582C27 /* redcvsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB3816D1E7604CB00582C27 /* redcvsTests.m */,
+				8AB3816F1E7604CB00582C27 /* Info.plist */,
+			);
+			path = redcvsTests;
+			sourceTree = "<group>";
+		};
+		8AB381771E7604CB00582C27 /* redcvsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB381781E7604CB00582C27 /* redcvsUITests.m */,
+				8AB3817A1E7604CB00582C27 /* Info.plist */,
+			);
+			path = redcvsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AB381521E7604CA00582C27 /* redcvs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB3817D1E7604CB00582C27 /* Build configuration list for PBXNativeTarget "redcvs" */;
+			buildPhases = (
+				8AB3814F1E7604CA00582C27 /* Sources */,
+				8AB381501E7604CA00582C27 /* Frameworks */,
+				8AB381511E7604CA00582C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redcvs;
+			productName = redcvs;
+			productReference = 8AB381531E7604CA00582C27 /* redcvs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AB381681E7604CB00582C27 /* redcvsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB381801E7604CB00582C27 /* Build configuration list for PBXNativeTarget "redcvsTests" */;
+			buildPhases = (
+				8AB381651E7604CB00582C27 /* Sources */,
+				8AB381661E7604CB00582C27 /* Frameworks */,
+				8AB381671E7604CB00582C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB3816B1E7604CB00582C27 /* PBXTargetDependency */,
+			);
+			name = redcvsTests;
+			productName = redcvsTests;
+			productReference = 8AB381691E7604CB00582C27 /* redcvsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AB381731E7604CB00582C27 /* redcvsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB381831E7604CB00582C27 /* Build configuration list for PBXNativeTarget "redcvsUITests" */;
+			buildPhases = (
+				8AB381701E7604CB00582C27 /* Sources */,
+				8AB381711E7604CB00582C27 /* Frameworks */,
+				8AB381721E7604CB00582C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB381761E7604CB00582C27 /* PBXTargetDependency */,
+			);
+			name = redcvsUITests;
+			productName = redcvsUITests;
+			productReference = 8AB381741E7604CB00582C27 /* redcvsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB3814B1E7604CA00582C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Barta Pál";
+				TargetAttributes = {
+					8AB381521E7604CA00582C27 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8AB381681E7604CB00582C27 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AB381521E7604CA00582C27;
+					};
+					8AB381731E7604CB00582C27 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AB381521E7604CA00582C27;
+					};
+				};
+			};
+			buildConfigurationList = 8AB3814E1E7604CA00582C27 /* Build configuration list for PBXProject "redcvs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AB3814A1E7604CA00582C27;
+			productRefGroup = 8AB381541E7604CA00582C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB381521E7604CA00582C27 /* redcvs */,
+				8AB381681E7604CB00582C27 /* redcvsTests */,
+				8AB381731E7604CB00582C27 /* redcvsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB381511E7604CA00582C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB381601E7604CB00582C27 /* Assets.xcassets in Resources */,
+				8AB381631E7604CB00582C27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB381671E7604CB00582C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB381721E7604CB00582C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB3814F1E7604CA00582C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB3815E1E7604CB00582C27 /* ViewController.mm in Sources */,
+				8AB3815B1E7604CB00582C27 /* main.m in Sources */,
+				8AB381581E7604CB00582C27 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB381651E7604CB00582C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB3816E1E7604CB00582C27 /* redcvsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB381701E7604CB00582C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB381791E7604CB00582C27 /* redcvsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AB3816B1E7604CB00582C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB381521E7604CA00582C27 /* redcvs */;
+			targetProxy = 8AB3816A1E7604CB00582C27 /* PBXContainerItemProxy */;
+		};
+		8AB381761E7604CB00582C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB381521E7604CA00582C27 /* redcvs */;
+			targetProxy = 8AB381751E7604CB00582C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AB381611E7604CB00582C27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB381621E7604CB00582C27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AB3817B1E7604CB00582C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8AB3817C1E7604CB00582C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8AB3817E1E7604CB00582C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /Users/bartapal/Development/R3DSDKv6_2_2/include;
+				INFOPLIST_FILE = redcvs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/bartapal/Development/R3DSDKv6_2_2/Lib/mac32_64,
+					/Users/bartapal/Development/R3DSDKv6_2_2/Redistributable/mac,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = palbarta.redcvs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AB3817F1E7604CB00582C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /Users/bartapal/Development/R3DSDKv6_2_2/include;
+				INFOPLIST_FILE = redcvs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/bartapal/Development/R3DSDKv6_2_2/Lib/mac32_64,
+					/Users/bartapal/Development/R3DSDKv6_2_2/Redistributable/mac,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = palbarta.redcvs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AB381811E7604CB00582C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redcvsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = palbarta.redcvsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redcvs.app/Contents/MacOS/redcvs";
+			};
+			name = Debug;
+		};
+		8AB381821E7604CB00582C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redcvsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = palbarta.redcvsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redcvs.app/Contents/MacOS/redcvs";
+			};
+			name = Release;
+		};
+		8AB381841E7604CB00582C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redcvsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = palbarta.redcvsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redcvs;
+			};
+			name = Debug;
+		};
+		8AB381851E7604CB00582C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redcvsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = palbarta.redcvsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redcvs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AB3814E1E7604CA00582C27 /* Build configuration list for PBXProject "redcvs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB3817B1E7604CB00582C27 /* Debug */,
+				8AB3817C1E7604CB00582C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB3817D1E7604CB00582C27 /* Build configuration list for PBXNativeTarget "redcvs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB3817E1E7604CB00582C27 /* Debug */,
+				8AB3817F1E7604CB00582C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB381801E7604CB00582C27 /* Build configuration list for PBXNativeTarget "redcvsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB381811E7604CB00582C27 /* Debug */,
+				8AB381821E7604CB00582C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB381831E7604CB00582C27 /* Build configuration list for PBXNativeTarget "redcvsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB381841E7604CB00582C27 /* Debug */,
+				8AB381851E7604CB00582C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AB3814B1E7604CA00582C27 /* Project object */;
+}
